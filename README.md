@@ -7,13 +7,67 @@ This project is forked from the original Marlin firmware.
 It is best to compile and upload this using PlatformIO with Visual Studio Code and the Auto Build Marlin extension.
 
 ### Installing Visual Studio Code
+First, go to the [official VS Code Website](https://code.visualstudio.com/) and install the latest version of VS Code for your operating System.
 
-### Installing the Marlin Auto Build extension
+### Installing needed extensions
+After you have installed VS Code, you need to install some extensions in order to compile and upload the firmware.
+
+To do this, open VS Code and select the extensions section on the left.
+
+//screenshot here
+
+In the search bar, search for "auto build marlin" and select the extension `Auto Build Marlin` by `Marlin Firmware`
+
+Click on `Install`.
+
+//screenshot here
+
+VS Code will then install all needed extensions, including PlatformIO.
+
+Finally, restart VS Code to make the changes take effect.
+
+_Note: It is possible that you need to install the python3-venv package when you are using Ubuntu. VS Code will prompt you for it during the installation, if necessary_
 
 ## The Firmware
 
 ### Downloading and opening the project
 
+On this page, go to the right. Under releases, select the newst release and download the attached zip file.
+Extract the zip file into a folder of your choice.
+
+Next, open VS Code. Select the PlatformIO section on the left and select `Open`.
+
+//screenshot here
+
+In the tab that opens, select `Open Project` and select the folder you just extracted.
+
+If VS Code asks you, if you trust the folder, confirm that you do.
+
+_Note: You need to open the parent directory of the repository, i.e. the folder that contains the `Marlin` folder._
+
+
 ### Compiling and uploading
 
-## Configuration Options
+Now that you have opened the project, it is time to build and upload Marlin. From the bottom toolbar, select `build`.
+
+//screenshot here
+
+PlatformIO will now try to compile Marlin and in the process download all of it's dependecies.
+
+_Note: The first build might fail. Just click on build again and it should work._
+
+When the build process finished successfully, you can upload the firmware. To do that, select `upload` from the bottom toolbar.
+
+//screenshot here
+
+PlatformIO should automatically detect your connected Arduino and upload the firmware.
+
+If this process finishes without any errors, your Arduino is now running Marlin and you're good to go :)
+
+## Configuration & Options
+
+If you want to change the name of your 3D printer or want to change any other configuration options, you have to open the file `Marlin/Configuration.h` (select it from the file explorer on the left).
+
+### Changing the name of your 3D-Printer
+To change the name, go to line 146 of aforementioned Configuration.h file and change the name that is given there.
+Note that you must not change anything in that line except the name __between__ the quotes.
