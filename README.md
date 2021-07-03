@@ -14,13 +14,13 @@ After you have installed VS Code, you need to install some extensions in order t
 
 To do this, open VS Code and select the extensions section on the left.
 
-![Extension Section](https://github.com/nipfuh/D-Bot-Marlin/blob/2.0.x/compile_doc/extension_section.png?raw=true)
+![extension section](https://github.com/nipfuh/D-Bot-Marlin/blob/2.0.x/compile_doc/extension_section.png?raw=true)
 
 In the search bar, search for "auto build marlin" and select the extension `Auto Build Marlin` by `Marlin Firmware`
 
 Click on `Install`.
 
-//screenshot here
+![Auto Build Marlin install](https://github.com/nipfuh/D-Bot-Marlin/blob/2.0.x/compile_doc/auto_build_marlin.png?raw=true)
 
 VS Code will then install all needed extensions, including PlatformIO.
 
@@ -37,7 +37,7 @@ Extract the zip file into a folder of your choice.
 
 Next, open VS Code. Select the PlatformIO section on the left and select `Open`.
 
-//screenshot here
+![opening the project](https://github.com/nipfuh/D-Bot-Marlin/blob/2.0.x/compile_doc/platformio_open.png?raw=true)
 
 In the tab that opens, select `Open Project` and select the folder you just extracted.
 
@@ -50,7 +50,7 @@ _Note: You need to open the parent directory of the repository, i.e. the folder 
 
 Now that you have opened the project, it is time to build and upload Marlin. From the bottom toolbar, select `build`.
 
-//screenshot here
+![building the project](https://github.com/nipfuh/D-Bot-Marlin/blob/2.0.x/compile_doc/platformio_build.png?raw=true)
 
 PlatformIO will now try to compile Marlin and in the process download all of it's dependecies.
 
@@ -58,7 +58,7 @@ _Note: The first build might fail. Just click on build again and it should work.
 
 When the build process finished successfully, you can upload the firmware. To do that, select `upload` from the bottom toolbar.
 
-//screenshot here
+![uploading the project](https://github.com/nipfuh/D-Bot-Marlin/blob/2.0.x/compile_doc/platformio_upload.png?raw=true)
 
 PlatformIO should automatically detect your connected Arduino and upload the firmware.
 
