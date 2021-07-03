@@ -14,7 +14,7 @@ After you have installed VS Code, you need to install some extensions in order t
 
 To do this, open VS Code and select the extensions section on the left.
 
-//screenshot here
+![Extension Section](https://github.com/nipfuh/D-Bot-Marlin/blob/2.0.x/compile_doc/extension_section.png?raw=true)
 
 In the search bar, search for "auto build marlin" and select the extension `Auto Build Marlin` by `Marlin Firmware`
 
