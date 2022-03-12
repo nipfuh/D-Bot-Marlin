@@ -3,6 +3,8 @@ The printer is based on the [D-Bot printer](https://www.thingiverse.com/thing:10
 
 This project is forked from the original Marlin firmware.
 
+Click [here](https://github.com/nipfuh/D-Bot-Marlin/blob/2.0.x/README_ger.md) for the German :de: version.
+
 ## Prequisits
 It is best to compile and upload this using PlatformIO with Visual Studio Code and the Auto Build Marlin extension.
 
@@ -32,7 +34,7 @@ _Note: It is possible that you need to install the python3-venv package when you
 
 ### Downloading and opening the project
 
-On this page, go to the right. Under releases, select the newst release and download the attached zip file.
+On this page, go to the right. Under releases, select the newest release and download the attached zip file.
 Extract the zip file into a folder of your choice.
 
 Next, open VS Code. Select the PlatformIO section on the left and select `Open`.
