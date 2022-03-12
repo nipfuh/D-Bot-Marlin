@@ -65,7 +65,7 @@ Wenn der Prozess ohne Fehler durchläuft, ist Marlin nun auf deinem Arduino und 
 
 ## Kofiguration & Einstellungen
 
-Wenn du den Namen deines Druckers oder andere Einstellungen ändern willst, musst du die Datei `Marlin/configuration.h` öffnen (wähle sie im Dateiexplorer auf der linken Seite aus).
+Wenn du den Namen deines Druckers oder andere Einstellungen ändern willst, musst du die Datei `Marlin/Configuration.h` öffnen (wähle sie im Dateiexplorer auf der linken Seite aus).
 
 ### Den Namen des Druckers ändern
 
